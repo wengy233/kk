@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0963E695200301BE008AD01A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0963E694200301BE008AD01A /* main.cpp */; };
+		0963E69C200301E4008AD01A /* 翁月.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0963E69B200301E4008AD01A /* 翁月.cpp */; };
+		0963E69E20030268008AD01A /* Shortest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0963E69D20030268008AD01A /* Shortest.cpp */; };
+		0963E6A02003026E008AD01A /* d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0963E69F2003026E008AD01A /* d.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		0963E691200301BE008AD01A /* kk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kk; sourceTree = BUILT_PRODUCTS_DIR; };
 		0963E694200301BE008AD01A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0963E69B200301E4008AD01A /* 翁月.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "翁月.cpp"; sourceTree = "<group>"; };
+		0963E69D20030268008AD01A /* Shortest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shortest.cpp; sourceTree = "<group>"; };
+		0963E69F2003026E008AD01A /* d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = d.cpp; sourceTree = "<group>"; };
+		0963E6A120030275008AD01A /* tp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				0963E694200301BE008AD01A /* main.cpp */,
+				0963E69B200301E4008AD01A /* 翁月.cpp */,
+				0963E6A120030275008AD01A /* tp.h */,
+				0963E69F2003026E008AD01A /* d.cpp */,
+				0963E69D20030268008AD01A /* Shortest.cpp */,
 			);
 			path = kk;
 			sourceTree = "<group>";
@@ -119,6 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0963E69C200301E4008AD01A /* 翁月.cpp in Sources */,
+				0963E69E20030268008AD01A /* Shortest.cpp in Sources */,
+				0963E6A02003026E008AD01A /* d.cpp in Sources */,
 				0963E695200301BE008AD01A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +262,7 @@
 				0963E69A200301BE008AD01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
